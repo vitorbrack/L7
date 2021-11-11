@@ -1,7 +1,7 @@
 <?php
-include_once 'C:/xampp\htdocs/ProjetoL7/Controller/FornecedorController.php';
-include_once 'C:/xampp/htdocs/ProjetoL7/model/Fornecedor.php';
-include_once 'C:/xampp/htdocs/ProjetoL7/model/Mensagem.php';
+include_once 'C:/xampp\htdocs/L7/projeto_L7-main-master/Controller/FornecedorController.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Fornecedor.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Mensagem.php';
 $msg = new Mensagem();
 $fr = new Fornecedor();
 $btEnviar = FALSE;

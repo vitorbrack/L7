@@ -1,7 +1,7 @@
 <?php
-include_once 'C:/xampp/htdocs/projetoL7/DataBase/conecta.php';
-include_once 'C:/xampp/htdocs/projetoL7/model/Marca.php';
-include_once 'C:/xampp/htdocs/projetoL7/model/Mensagem.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/DataBase/conecta.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Marca.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Mensagem.php';
 
 class DaoMarca{
 

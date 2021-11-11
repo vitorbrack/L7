@@ -1,6 +1,6 @@
 <?php
-include_once 'C:/xampp/htdocs/projetoL7/dao/DaoMarca.php';
-include_once 'C:/xampp/htdocs/projetoL7/model/Marca.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/dao/DaoMarca.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Marca.php';
 class  MarcaController{
 
     public function inserirMarca($nomeMarca, $representante, 

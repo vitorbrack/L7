@@ -1,7 +1,7 @@
 <?php
-include_once 'C:/xampp\htdocs/ProjetoL7/Controller/MarcaController.php';
-include_once 'C:/xampp/htdocs/ProjetoL7/model/Marca.php';
-include_once 'C:/xampp/htdocs/ProjetoL7/model/Mensagem.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/Controller/MarcaController.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Marca.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Mensagem.php';
 
 $msg = new Mensagem();
 $fr = new Marca();

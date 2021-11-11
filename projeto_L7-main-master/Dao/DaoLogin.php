@@ -1,7 +1,9 @@
 <?php
-require_once 'C:/xampp/htdocs/PHPMatutinoPDO2Proc/bd/Conecta.php';
-require_once 'C:/xampp/htdocs/PHPMatutinoPDO2Proc/model/Mensagem.php';
-require_once 'C:/xampp/htdocs/PHPMatutinoPDO2Proc/model/Pessoa.php';
+
+require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/DataBase/conecta.php';
+require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Mensagem.php';
+require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Pessoa.php';
+
 
 class DaoLogin {
  

@@ -1,7 +1,7 @@
 
 <?php
-include_once 'C:/xampp/htdocs/projetoL7/dao/DaoFornecedor.php';
-include_once 'C:/xampp/htdocs/projetoL7/model/Fornecedor.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/Dao/DaoFornecedor.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Fornecedor.php';
 
 class FornecedorController {
     

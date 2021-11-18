@@ -1,9 +1,9 @@
 <?php
 
-require_once 'C:/xampp/htdocs/PHPMatutinoPDO/bd/Conecta.php';
-require_once 'C:/xampp/htdocs/PHPMatutinoPDO/model/Pessoa.php';
-require_once  'C:/xampp/htdocs/PHPMatutinoPDO/model/Endereco.php';
-include_once 'C:/xampp/htdocs/PHPMatutinoPDO/model/Mensagem.php';
+require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/bd/Conecta.php';
+require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Pessoa.php';
+require_once  'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Endereco.php';
+include_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Mensagem.php';
 
 class daoPessoa {
 

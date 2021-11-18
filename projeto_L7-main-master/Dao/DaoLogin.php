@@ -7,24 +7,25 @@ require_once 'C:/xampp/htdocs/L7/projeto_L7-main-master/model/Pessoa.php';
 
 class DaoLogin {
  
-    public function validarLogin($login, $senha){
+    public function validarLogin($email, $senha){
         $conn = new Conecta();
         $conecta = $conn->conectadb();
         $pessoa = new Pessoa();
         if($conecta){
             try{
                 $conecta->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                $st = $conecta->prepare("select * from pessoa where login = ? "
+                $st = $conecta->prepare("select * from pessoa where email = ? "
                     . "and senha = md5(?) limit 1");
-                $st->bindParam(1, $login);
+                $st->bindParam(1, $email);
                 $st->bindParam(2, $senha);
                 if($st->execute()){
                     if($st->rowCount()>0){
                         while ($linha = $st->fetch(PDO::FETCH_OBJ)) {
                             $pessoa->setIdpessoa($linha->idpessoa);
                             $pessoa->setNome($linha->nome);
-                           // $pessoa->setLogin($linha->login);
+                            $pessoa->setEmail($linha->email);
                             $pessoa->setPerfil($linha->perfil);
+                            $pessoa->setCpf($linha->cpf);
                         }
                         return $pessoa;
                     }else{
